@@ -16,10 +16,8 @@ import unicodedata
 from pathlib import Path
 
 
-
 class ChatbotReglas:
     """Chatbot basado en reglas con dos flujos de conversación"""
-
     def __init__(self, archivo_flujos='instructions.json'):
         """
         Inicializa el chatbot cargando los flujos desde JSON
