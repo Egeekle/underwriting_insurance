@@ -17,6 +17,7 @@ dependencies = [
     "langgraph>=1.0.5",
     "numpy>=2.4.0",
     "pandas>=2.3.3",
+    "rasa>=0.1.1",
     "scikit-learn>=1.8.0",
 ]
 
@@ -25,6 +26,7 @@ dev = [
     "ipykernel>=7.1.0",
     "pyzmq>=27.1.0",
     "jupyter>=1.0.0",
+    "pytest>=9.0.2",
 ]
 [build-system]
 requires = ["setuptools>=72.0"]
